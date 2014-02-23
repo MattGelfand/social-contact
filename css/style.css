@@ -1,9 +1,9 @@
 /* global styles */
 
 * {
-  -webkit-font-smoothing:antialiased;
-  -moz-font-smoothing:antialiased;
-  font-smoothing: antialiased;
+-webkit-font-smoothing:antialiased;
+-moz-font-smoothing:antialiased;
+font-smoothing: antialiased;
 }
 
 
@@ -11,13 +11,12 @@ body {
 line-height: 1.5em;
 -webkit-text-size-adjust:100%;
 font-size: 150%;
- background-image: url('../img/pattern.jpg');
- background-repeat:repeat;
+background-image: url('../img/pattern.jpg');
+background-repeat:repeat;
 /*background: #1D1D1D;*/
 }
 
 #container {
-width: 100%;
 margin: 0 auto;	
 }
 
@@ -25,38 +24,33 @@ margin: 0 auto;
 width:700px;
 margin:0 auto;
 height: auto;
-/*border: 5px solid white;*/
- -webkit-animation-duration: 2s; 
-    animation-duration: 2s; 
-    -webkit-animation-fill-mode: both; 
-    animation-fill-mode: both; 	
+-webkit-animation-duration: 2s; 
+animation-duration: 2s; 
+-webkit-animation-fill-mode: both; 
+animation-fill-mode: both; 	
 }
 
 @-webkit-keyframes swing { 
-    20%, 40%, 60%, 80%, 100% { -webkit-transform-origin: top center; } 
-    20% { -webkit-transform: rotate(15deg); } 
-    40% { -webkit-transform: rotate(-10deg); } 
-    60% { -webkit-transform: rotate(5deg); } 
-    80% { -webkit-transform: rotate(-5deg); } 
-    100% { -webkit-transform: rotate(0deg); } 
+20%, 40%, 60%, 80%, 100% { -webkit-transform-origin: top center; } 
+20% { -webkit-transform: rotate(15deg); } 
+40% { -webkit-transform: rotate(-10deg); } 
+60% { -webkit-transform: rotate(5deg); } 
+80% { -webkit-transform: rotate(-5deg); } 
+100% { -webkit-transform: rotate(0deg); } 
 } 
 @keyframes swing { 
-    20% { transform: rotate(15deg); } 
-    40% { transform: rotate(-10deg); } 
-    60% { transform: rotate(5deg); } 
-    80% { transform: rotate(-5deg); } 
-    100% { transform: rotate(0deg); } 
+20% { transform: rotate(15deg); } 
+40% { transform: rotate(-10deg); } 
+60% { transform: rotate(5deg); } 
+80% { transform: rotate(-5deg); } 
+100% { transform: rotate(0deg); } 
 } 
+
 .box:hover { 
-    -webkit-transform-origin: top center; 
-    transform-origin: top center; 
-    -webkit-animation-name: swing; 
-    animation-name: swing; 
-}
-
-
-span {
-color:black;	
+-webkit-transform-origin: top center; 
+transform-origin: top center; 
+-webkit-animation-name: swing; 
+animation-name: swing; 
 }
 
 .social-icons {
@@ -64,7 +58,6 @@ margin:0 auto;
 width: 500px;
 margin-top:1.6em;
 }
-
 
 .social-icons li {
 display: inline;	
@@ -85,16 +78,14 @@ color:#C4DF9B;
 }
 
 img {
-
 box-shadow: 0 4px 2px -2px black;
 }
-
 
 .quote p {
 font-family: "john-doe";
 text-align: center;
 font-size: .8em;
-margin-top:3.4em;
+margin-top:3.2em;
 color:#fff;	
 }
 
