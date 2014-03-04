@@ -7,12 +7,11 @@ font-smoothing: antialiased;
 }
 
 html {
-background: url('../img/captain.png') no-repeat center center fixed; 
+background: url('../img/captain.jpg') no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
-
 }
 
 body {
@@ -20,79 +19,66 @@ body {
 overflow-x: hidden;
 }
 
-#social, #social2, #social3 {
+.links {
 list-style-type: none;
-width:200px;
-float:left;	
-}
-
-#social {
+width: 500px;
+height: 90px;
 position: absolute;
-bottom:0;
-left:0;
-}	
-
-#social2 {
-position: absolute;
-bottom:0;
-left:250px;
-}
-
-#social3 {
-position: absolute;
-bottom:0;
-left:500px;
+left:28%;
+top:70%;	
 }
 
 li {
-color: #efefef;
 font-size: 15px;
-border-top: 1px dotted white;
-padding:.4em;
+display: inline;
+padding:1.8em 1.6em;
+}
+
+span {
 font-family: "brandon-grotesque";
 font-weight: 600;
+display: none;
 }
 
 a {
 text-decoration: none;	
+color: #efefef;
 }
 
-.links a li:hover {
+a:hover {
 color: #cccccc;	
 }
 
 .fa {
-visibility: hidden;	
-}
-
-.icons li {
-visibility: hidden;	
+display: none;
 }
 
 
-
-@media (max-width: 740px)  {
-#social, #social2, #social3 {
-display: none;	
-}
-
+@media (max-width: 1270px)  {
 .fa {
 visibility: visible;
 color: white;
 }
 
-.icons li {
-list-style-type: none;	
-border: none;
-display: inline;
-margin: 0 100px;
+span {
+display: none;
 }
 
-.icons {
-right:30px;
-position: fixed;
+li {
+padding:20px;
+}
+
+.links {
+top:50px;
+left:-45px;
+display: fixed;	
+}
 
 }
+
+
+
+
 
 
 
